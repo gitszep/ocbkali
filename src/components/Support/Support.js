@@ -1,6 +1,6 @@
 // Support.jsx
 import React from 'react';
-import { FaFacebook, FaGraduationCap, FaTools, FaCertificate, FaUserFriends, FaHandshake, FaShieldAlt } from 'react-icons/fa';
+import { FaGraduationCap, FaTools, FaCertificate, FaUserFriends, FaHandshake, FaShieldAlt } from 'react-icons/fa';
 
 const Support = () => {
     return (
