@@ -26,6 +26,15 @@
 
 
 
+/* add svg logo */
+
+
+
+  
+  .icon {
+    height: 10rem; /* Dostosuj wysokość logo */
+    width: auto; /* Utrzymaj proporcje */
+  }
 
 
 .hamburger {

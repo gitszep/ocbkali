@@ -29,25 +29,12 @@ const Kontakt = () => {
                 </div>
             </div> 
         </div>    
-         
-       
-
-    
-        
-     
     </div>
-
-
-
       <div className="max-w-[1240px] px-4">
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-2 text-center">NASZA OFERTA</h1>
           <p className='py-4'>W trosce o bezpieczeństwo oraz kompleksowość naszych usług istnieje także myśliwość zlecenia poza kontrolą, utrzymanie Państwa obiektów pod względem formalnym jak i też konserwatorskim. Dzięki naszemu systemowi szkoleniowemu dysponujemy na terenie całego kraju odpowiednią kadrą pozwalającą podjęcia się długoterminowych zleceń.</p>
         </div>
-
-
-
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
           <div className="flex flex-col items-center">
             <img className="w-full h-auto max-h-[300px] object-cover m-2" src={BoraBora} alt="Bora Bora" />
@@ -61,8 +48,8 @@ const Kontakt = () => {
           </div>
           <div className="flex flex-col items-center">
             <img className="w-full h-auto max-h-[300px] object-cover m-2" src={BoraBora} alt="Bora Bora" />
-            <h1 className="text-xl font-bold mb-2">Serwis</h1>
-            <p className="text-center">Przeprowadzenia napraw i ewentualnych konserwacji plac zabaw.</p>
+            <h1 className="text-xl font-bold mb-2">Szkolenia</h1>
+            <p className="text-center">Nauka teoretyczna i praktyczna o normach bezpieczeństwa i zasadach BHP w sektorze sportowo-rekreacyjnym.</p>
           </div>
         </div>
       </div>

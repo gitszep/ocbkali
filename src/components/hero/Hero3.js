@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
-import beachVid from '../../assets/beachVid.mp4';
+import beachVid from '../../assets/4440864-hd_1920_1080_25fps.mp4';
 
 const Hero = () => {
   return (

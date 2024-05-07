@@ -17,7 +17,6 @@ function App() {
       <Hero3 />
     <Tekst/>
    {/*    <Hero /> */}
-     <Offers />   
       <Plan />
       <Rooms />
       <ImageSlider/>

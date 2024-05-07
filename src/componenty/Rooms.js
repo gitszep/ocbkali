@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import yourImage8 from '../assets/pexels-alimuart-17467605.jpg';
+import yourImage9 from '../assets/anderson-schmig-xEasQisJLx0-unsplash.jpg';
+import yourImage5 from '../assets/arthur-lugovoy-FtMDTvgefpY-unsplash.jpg';
 
 const Rooms = () => {
   const handleClick = (event) => {
@@ -20,10 +23,10 @@ const Rooms = () => {
           </button>
         </div>
       </div>
-      <div className='grid grid-cols-2 col-span-2 gap-2'>
-        <img className='object-cover w-full h-full' src='https://images.unsplash.com/photo-1602002418082-a4443e081dd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80' alt='/' />
-        <img className='row-span-2 object-cover w-full h-full' src='https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80' alt='/' />
-        <img className='object-cover w-full h-full' src='https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80' alt='/' />
+      <div className='grid grid-cols-2 col-span-2 gap-2' style={{ height: 'auto' }}>
+        <img className='object-cover w-full h-full' src={yourImage9} alt='/' />
+        <img className='row-span-2 object-cover w-full h-full' src={yourImage8} alt='/' />
+        <img className='object-cover w-full h-full' src={yourImage5} alt='/' />
       </div>
     </div>
   );
