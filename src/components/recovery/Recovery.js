@@ -1,6 +1,6 @@
 import React from 'react';
 import './RecoveryStyles.css';
-import Footer from '../../componenty/Footer';
+import Footer from '../../componenty/footer/Footer';
 import Support from '../../components/Support/Support'; // Importujemy komponent Support
 import BoraBora from '../../assets/borabora.jpg';
 import BoraBora2 from '../../assets/borabora2.jpg';

@@ -24,19 +24,6 @@
     color: var(--primary-color);
 }
 
-
-
-/* add svg logo */
-
-
-
-  
-  .icon {
-    height: 10rem; /* Dostosuj wysokość logo */
-    width: auto; /* Utrzymaj proporcje */
-  }
-
-
 .hamburger {
     display: none;
     padding: 1rem;
@@ -51,12 +38,12 @@
 .navbar li {
     padding: 1rem;
     font-weight: 600;
-    color: #2FAECA;
+    color: #fff;
 }
 
 .navbar .icon {
     font-size: 1.4rem;
-    color: #2FAECA;
+    color: #fff;
 }
 
 @media screen and (max-width: 940px) {
@@ -94,7 +81,28 @@
 
 }
 
+.logo {
+    height: 10rem; /* Dostosuj wysokość logo */
+    width: auto; /* Utrzymaj proporcje */
+  }
 
 
-
-
+  .nav-menu li.active a {
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-menu li.active a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color); /* Kolor podkreślenia */
+    transition: width 0.3s ease; /* Animacja rozszerzania */
+  }
+  
+  .nav-menu li.active a:hover::after {
+    width: 0; /* Anulowanie animacji podczas najechania */
+  }

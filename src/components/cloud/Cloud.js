@@ -4,7 +4,7 @@ import Maldives from '../../assets/maldives.jpg';
 import KeyWest from '../../assets/keywest.jpg';
 import Hero3 from '../../components/hero/Hero3';
 import Photo from '../../components/photo/Photo';
-import Footer from '../../componenty/Footer';
+import Footer from '../../componenty/footer/Footer';
 import ImageSlider from '../../componenty/ImageSlider';
 
 const Cloud = () => {

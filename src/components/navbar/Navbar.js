@@ -13,17 +13,17 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                    <img src={logo} alt="Logo" className='icon' /> {/* Wstaw logo */}
+                    <img src={logo} alt="Logo" className='logo' /> {/* Wstaw logo */}
                    {/*  <h1 className="text-2xl">OCBSiR</h1> */}
                 </div>
 
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li className={location.pathname === '/' ? 'active' : ''}><Link to='/'>HOME</Link></li>
-                    <li className={location.pathname === '/recovery' ? 'active' : ''}><Link to='/recovery'>O NAS</Link></li>
-                    <li className={location.pathname === '/cloud' ? 'active' : ''}><Link to='/cloud'>SZKOLENIA</Link></li>
-                    <li className={location.pathname === '/kontakt' ? 'active' : ''}><Link to='/kontakt'>USŁUGI</Link></li>
-                    <li className={location.pathname === '/hontakt' ? 'active' : ''}><Link to='/hontakt'>O NORMACH</Link></li>
-                    <li className={location.pathname === '/contact' ? 'active' : ''}><Link to='/contact'>KONTAKT</Link></li>
+                    <li className={location.pathname === '/about' ? 'active' : ''}><Link to='/about'>O NAS</Link></li>
+                    <li className={location.pathname === '/szkolenia' ? 'active' : ''}><Link to='/szkolenia'>SZKOLENIA</Link></li>
+                    <li className={location.pathname === '/uslugi' ? 'active' : ''}><Link to='/uslugi'>USŁUGI</Link></li>
+                    <li className={location.pathname === '/normy' ? 'active' : ''}><Link to='/normy'>O NORMACH</Link></li>
+                    <li className={location.pathname === '/kontakt' ? 'active' : ''}><Link to='/kontakt'>KONTAKT</Link></li>
                 </ul>
 
                 <div className="hamburger" onClick={handleNav}>
@@ -34,4 +34,9 @@ const Navbar = () => {
     );
 };
 
+
+
+
 export default Navbar;
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../componenty/Footer'
+import Footer from '../../componenty/footer/Footer'
 import BoraBora from '../../assets/borabora.jpg';
 import BoraBora2 from '../../assets/borabora2.jpg';
 import Maldives from '../../assets/maldives.jpg';

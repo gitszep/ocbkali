@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactStyles.css';
-import beachVid from '../../assets/beachVid.mp4';
+import beachVid from '../../assets/4440864-hd_1920_1080_25fps.mp4';
 import { useForm, ValidationError } from '@formspree/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
@@ -10,12 +10,14 @@ const Contact = () => {
 
   if (state.succeeded) {
     return (
-      <div className="success-container">
-        <div className="success-message">
-          <div className="circle">
-            <FontAwesomeIcon icon={faCheckCircle} size="3x" color="green" />
+      <div className="contact success"> {/* Dodaj klasę 'success' */}
+        <div className="success-container">
+          <div className="success-message">
+            <div className="circle">
+              <FontAwesomeIcon icon={faCheckCircle} size="3x" color="green" />
+            </div>
+            <p className='center'>Dziękujemy za  twoją wiadomość!</p>
           </div>
-          <p className='center'>Thanks for your message!</p>
         </div>
       </div>
     );
@@ -37,14 +39,14 @@ const Contact = () => {
       <div className="container">
         <div className="form-container">
           <form onSubmit={handleSubmit}>
-            <h1><span>Contact</span> Us</h1>
+            <h1 className='mt-20 text-5xl'><span></span>Kontakt</h1>
             <div>
               <label htmlFor="name">Name</label>
               <input
                 id="name"
                 type="text"
                 name="name"
-                placeholder="Enter your name"
+                placeholder="Wprowadź swoją nazwę"
                 required
               />
             </div>
@@ -54,7 +56,7 @@ const Contact = () => {
                 id="email"
                 type="email"
                 name="email"
-                placeholder="Enter your email"
+                placeholder="Wprowadź swój email"
                 required
               />
               <ValidationError
@@ -69,7 +71,7 @@ const Contact = () => {
                 id="message"
                 name="message"
                 rows='2'
-                placeholder='Enter your message'
+                placeholder='Napisz wiadomość'
                 required
               />
               <ValidationError
@@ -79,11 +81,12 @@ const Contact = () => {
               />
             </div>
             <button type="submit" className='mb-8' disabled={state.submitting}>
-              Submit
+              Wyślij
             </button>
           </form>
         </div>
       </div>
+
     </div>
   );
 };

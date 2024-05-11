@@ -14,11 +14,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App />} />
-      <Route path='/recovery' element={<Recovery />} />
-      <Route path='/cloud' element={<CloudPage />} />
-      <Route path='/contact' element={<ContactPage />} />
-      <Route path='/kontakt' element={<KontaktPage />} />
-      <Route path='/Hontakt' element={<HontaktPage />} />
+      <Route path='/about' element={<Recovery />} />
+      <Route path='/szkolenia' element={<CloudPage />} />
+      <Route path='/kontakt' element={<ContactPage />} />
+      <Route path='/uslugi' element={<KontaktPage />} />
+      <Route path='/normy' element={<HontaktPage />} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

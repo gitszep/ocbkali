@@ -3,13 +3,13 @@ import './ContactStyles.css';
 import Navbar from '../../components/navbar/Navbar';
 import Hero from '../hero/Hero3';
 import BoraBora from '../../assets/borabora.jpg';
-import Footer from '../../componenty/Footer';
+import Footer from '../../componenty/footer/Footer';
 import Maldives from '../../assets/maldives.jpg';
 import KeyWest from '../../assets/keywest.jpg';
 import Hero3 from '../../components/hero/Hero3';
 import Photo from '../../components/photo/Photo';
 import ImageSlider from '../../componenty/ImageSlider';
-
+import doc from '../../assets/dokumentacja.jpg';
 
 const Hontakt = () => {
     return (
@@ -21,22 +21,16 @@ const Hontakt = () => {
             <div className='max-w-[1240px] mx-auto  px-4 text-center'>
                 <h1>Lider w Ochronie Infrastruktury Rozrywkowej</h1>
                 <div className="border border-gray-500 h-0 w-50%"></div>
-                <p className='py-4'></p>
-                <div className='grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4'>
-                 
-                </div>
+               
                 <div className='max-w-[1240px] mx-auto py-4 px-4 text-center'>
                    {/* <p>Dlaczego warto wybrać OCBSiR?</p>  */}
                    {/* <div className="border border-gray-500 h-0 w-50%"></div>  */}
                 </div>
             </div> 
         </div>    
-         
-       
-
-        <div className="max-w-[1240px] px-4">
+        <img className="w-1/3 border-25 border border-black border-solid rounded-lg" src={doc} alt="description" />      <div className="max-w-[1240px] px-4">
   <div className="mb-8">
-    <h1 className="text-3xl font-bold mb-2 text-center">Lista norm niezbędnych w naszej pracy</h1>
+    <h1 className="text-3xl mt-4 font-bold mb-2 text-center">Lista norm niezbędnych w naszej pracy</h1>
     <p className='py-4'>Ogólnopolskie Centrum Bezpieczeństwa Sportu i Rekreacji regularnie przeprowadza szkolenia skierowane do producentów oraz właścicieli obiektów sportowych i rekreacyjnych. Nasz system szkoleniowy pozwala na wykształcenie ludzi, którzy oprócz wiedzy teoretycznej potrafią ją również wykorzystać w praktyce. Każde szkolenie organizowane przez OCBSiR kończy się zaświadczeniem i certyfikatem.</p>
   </div>
 </div>

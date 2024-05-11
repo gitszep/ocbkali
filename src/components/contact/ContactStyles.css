@@ -2,10 +2,9 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    background: rgba(0,0,0,.5);
-    margin-bottom: 0; /* Usuń margines dolny */
-    padding: 0;
+    background: rgba(0,0,0,.5); /* Ustawienie koloru tła na czarny */
     margin: 0;
+    padding: 0;
 }
 
 .contact:before {
@@ -17,7 +16,7 @@
 }
 
 .video-background {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -27,14 +26,9 @@
 }
 
 .video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .success-container {
@@ -42,24 +36,29 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1000; /* Make sure it's on top */
-  }
-  
-  .success-message {
+    z-index: 1000;
+    background-color: gray;
+}
+
+.success-message {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  .circle {
+}
+
+.contact.success {
+    background-color: rgb(0, 0, 0); /* Kolor tła dla całej strony po wysłaniu wiadomości */
+}
+
+.circle {
     margin-bottom: 10px;
-  }
-  
-  .center {
+}
+
+.center {
     text-align: center;
-  }
-  
+}
+
 .contact .container .form-container {
     display: flex;
     justify-content: center;
@@ -72,9 +71,6 @@
     width: 50%;
     margin: 1rem;
 }
-
-
-
 
 .contact .form-container div {
     display: flex;
@@ -93,8 +89,6 @@
     margin: 1rem 0;
     font-family: 'Roboto', sans-serif;
     background: rgba(0, 0, 0, .15);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, .15);
 }

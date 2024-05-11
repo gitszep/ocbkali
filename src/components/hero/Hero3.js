@@ -4,9 +4,9 @@ import beachVid from '../../assets/4440864-hd_1920_1080_25fps.mp4';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen relative'>
+    <div className='w-full h-screen relative bg-black/25 '>
       <video
-        className='w-full h-full object-cover'
+        className='w-full h-full object-cover bg-black/25 '
         src={beachVid}
         autoPlay
         loop

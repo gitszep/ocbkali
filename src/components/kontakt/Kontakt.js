@@ -3,7 +3,7 @@ import './ContactStyles.css';
 import Navbar from '../../components/navbar/Navbar';
 import Hero from '../hero/Hero3';
 import BoraBora from '../../assets/borabora.jpg';
-import Footer from '../../componenty/Footer';
+import Footer from '../../componenty/footer/Footer';
 import Maldives from '../../assets/maldives.jpg';
 import KeyWest from '../../assets/keywest.jpg';
 import Hero3 from '../../components/hero/Hero3';
